@@ -136,5 +136,15 @@
                 d="M9.948 1.686l18.103 4.44-7.698 6.649-18.107-4.442 7.702-6.647zM9.605 0.545l-9.605 8.292 20.696 5.077 9.603-8.294-20.693-5.075zM21.86 30.776l8.439-7.288-8.439-2.069v9.358z">
             </path>
         </symbol>
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <symbol id="icon-close" viewBox="0 0 32 32">
+                    <path
+                        d="M22.4 10.782l-1.182-1.182-4.685 4.685-4.685-4.685-1.182 1.182 4.685 4.685-4.685 4.685 1.182 1.182 4.685-4.685 4.685 4.685 1.182-1.182-4.685-4.685 4.685-4.685z">
+                    </path>
+                </symbol>
+            </defs>
+        </svg>
     </defs>
 </svg>

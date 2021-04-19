@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./js/modal.js">
+  
+    
+
 </head>
 <body>
   <!--шапка сайта-->
@@ -72,7 +76,7 @@
 
     <ul>   
     <li>
-        <button class="hero-btn">Заказать услугу</button>
+        <button class="hero-btn" data-modal-open>Заказать услугу</button>
     </li>
     </ul>
     </div>
@@ -172,13 +176,30 @@
 </h2>
 <ul class="doing-list">
     <li class="doing-item">
-        <img src="./images/img1.jpg" alt="рисунок-1" height="294" width="370">
+        
+        <img class="doing-img" src="./images/img1.jpg" alt="рисунок-1" width="370">
+    <div class="doing-overlay">
+    <p class="doing-text">
+        десктопные приложения
+    </p>
+    </div>
+    
     </li>
     <li class="doing-item">
-        <img src="./images/img2.jpg" alt="рисунок-2" height="294" width="370">
+        <img class="doing-img" src="./images/img2.jpg" alt="рисунок-2" height="294" width="370">
+    <div class="doing-overlay">
+        <p class="doing-text">
+            мобильные приложения
+        </p>
+    </div>
     </li>
     <li class="doing-item">
-        <img src="./images/img3.jpg" alt="рисунок-3" height="294" width="370">
+        <img class="doing-img" src="./images/img3.jpg" alt="рисунок-3" height="294" width="370">
+    <div class="doing-overlay">
+        <p class="doing-text">
+            дизайнерские решения
+        </p>
+    </div>
     </li>
 </ul>
 </div>
@@ -491,7 +512,7 @@
 </div>
 </section>
 </main>
-</body>
+
 
 <footer class="footer">
 <div class="container">
@@ -559,5 +580,22 @@
 </ul>
 </div>
 </footer>
+<div class="backdrop is-hidden" data-modal>
+<div class="modal-window">
+   
+    <button class="link-icon-close" data-modal-close>
+        <svg class="nav-icon-close">
+    
+            <use href="./images/symbol-defs.svg#icon-close">
+    
+            </use>
+        </svg>
+    </button>
 
+</div>
+</div>
+<script 
+    src="./js/modal.js">
+</script>
+</body>
 </html>
